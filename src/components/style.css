@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=DM+Serif+Display&family=East+Sea+Dokdo&display=swap');
+
+body {
+  position: relative;
+  font-family: 'DM Sans', sans-serif !important;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  font-family: 'East Sea Dokdo', cursive;
+  font-size: 6em;
+  margin-bottom: -1rem;
+}
+h2 {
+  font-family: 'DM Serif Display', serif;
+}
+h3 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+a:hover {
+  color: #F5F5F5 !important;
+  background-color: #331F2B !important;
+}
+.fit-cover {
+  object-fit: cover;
+}
+.link-light {
+  background-color: #690c97 !important;
+}
+.navbar-light {
+  background-color: #F5F5F5 !important;
+}
+.navbar-logo {
+  max-width: 40px;
+  vertical-align: middle;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.navbar-logo a:hover {
+	background-color: none !important;
+  }
+.masthead {
+  background-image: url("img/composition-book.png") !important;
+}
+.sticker-container {
+  background-color: #F5F5F5;
+  padding: 1em;
+  border-style: solid;
+  border-color: #331F2B;
+  border-radius: 25px;
+}
+.skills {
+  background-image: url("img/lined-paper.png");
+  background-color: #858585 !important;
+}
+.skills-img {
+  max-width: 40px !important;
+}
+.portfolio-img {
+  height: 200px;
+}
+.footer {
+  background-color: #806c51;
+  background-image: url("img/cardboard.png");
+}

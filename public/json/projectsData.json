@@ -1,0 +1,56 @@
+[
+  {
+    "id": 5,
+    "title": "Foliage Folio",
+    "url": "https://github.com/bethjarrett/PlantDatabase",
+    "slug": "foliage-folio",
+    "image": "/projectimg/foliagefolio.png",
+    "content": "An ASP.NET LINQ web application, built with Bootstrap, that allows users to manage a database of their plants and track when they water them.",
+    "type_id": 5,
+    "user_id": 1,
+    "created_at": "2022-08-10T21:55:11.000000Z",
+    "updated_at": "2022-08-10T21:55:11.000000Z",
+    "user": {
+      "id": 1,
+      "first": "Beth",
+      "last": "Jarrett",
+      "email": "bethjarrettbeth@gmail.com",
+      "email_verified_at": "2022-08-04T01:05:04.000000Z",
+      "created_at": "2022-08-04T01:05:04.000000Z",
+      "updated_at": "2022-08-04T01:05:04.000000Z"
+    },
+    "type": {
+      "id": 5,
+      "title": "Application",
+      "created_at": "2022-08-10T21:54:45.000000Z",
+      "updated_at": "2022-08-10T21:54:45.000000Z"
+    }
+  },
+  {
+    "id": 6,
+    "title": "Beauty Product API",
+    "url": "https://github.com/bethjarrett",
+    "slug": "beauty-api",
+    "image": "/projectimg/apiproject.png",
+    "content": "A node.js website, built with Pug and express.js, where users can engage with two API's: to search for Sephora products, and learn about their ingredients.",
+    "type_id": 4,
+    "user_id": 1,
+    "created_at": "2022-08-10T21:56:00.000000Z",
+    "updated_at": "2022-08-10T21:56:00.000000Z",
+    "user": {
+      "id": 1,
+      "first": "Beth",
+      "last": "Jarrett",
+      "email": "bethjarrettbeth@gmail.com",
+      "email_verified_at": "2022-08-04T01:05:04.000000Z",
+      "created_at": "2022-08-04T01:05:04.000000Z",
+      "updated_at": "2022-08-04T01:05:04.000000Z"
+    },
+    "type": {
+      "id": 4,
+      "title": "Website",
+      "created_at": "2022-08-10T21:54:38.000000Z",
+      "updated_at": "2022-08-10T21:54:38.000000Z"
+    }
+  }
+]
