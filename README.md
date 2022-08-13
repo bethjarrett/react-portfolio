@@ -1,5 +1,7 @@
 # Portfolio in React, Bootstrap
 https://react-portfolio-two-gamma.vercel.app/
+
+### About
 Bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 Frameworked with Bootstrap.
 
