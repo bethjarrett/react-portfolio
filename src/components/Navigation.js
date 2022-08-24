@@ -1,25 +1,28 @@
 import React from "react";
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import logo from "./img/beejar.png"
+import Container from 'react-bootstrap/Container';
+import logo from "./img/beejar.svg"
 
 class Navigation extends React.Component {
 render() {
   return(
-    <Navbar collapseOnSelect expand="lg" className="navbar-light fixed-top" variant="light">
-        <Navbar.Brand href="#home"><img src={logo} alt="Logo"  className="navbar-logo"/></Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+<Navbar collapseOnSelect expand="lg" className="fixed-top navbar">
+  <Container>
+    <Navbar.Brand href="#home" className="brand"><img src={logo} alt="Logo: a bee in a jar" className="navbar-logo"/>&nbsp;Beth Jarrett</Navbar.Brand>
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
           </Nav>
           <Nav>
-            <Nav.Link href="#about">About</Nav.Link>
-            <Nav.Link href="#skills">Skills</Nav.Link>
-            <Nav.Link href="#portfolio">Portfolio</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
+            <Nav.Link href="#about" className="navlink">About</Nav.Link>
+            <Nav.Link href="#skills" className="navlink">Skills</Nav.Link>
+            <Nav.Link href="#portfolio" className="navlink">Portfolio</Nav.Link>
+            <Nav.Link href="#contact" className="navlink">Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
-    </Navbar>
+  </Container>
+</Navbar>
     );
   }
 }

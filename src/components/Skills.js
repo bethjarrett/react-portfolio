@@ -21,13 +21,16 @@ export default function Skills() {
             <div className="container">
               <div className="content-section-heading">
                 <h2 className="mb-5">Skills</h2>
+                  <div className="row">
                   {
                     skills.map(s => (
-                      <span key={s.id}>
-                        <img src={s.image} className="skills-img pb-3" alt={s.name} />&nbsp;&nbsp;&nbsp;&nbsp;
-                      </span>
+                      <div key={s.id} className="col-4 col-sm-2 text-center mb-4">
+                        <img src={s.image} className="skills-img pb-3" alt={s.name} />
+                        <p className="mb-4 opacity-min">{s.name}</p>
+                      </div>
                     ))
                   }
+                </div>
               </div>
             </div>
           </section>

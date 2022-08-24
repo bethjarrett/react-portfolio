@@ -17,10 +17,14 @@ export default function Portfolio() {
     return (
         <>
           <section id="portfolio">
-            <div className="container py-4 py-xl-5">
+            <div className="portfolio-header position-relative">
+              <div className="display-middle">
+              <h2 className="label-maker">Portfolio</h2>
+              </div>
+            </div>
+            <div className="container py-4 py-xl-5 ">
               <div className="row mb-5">
                 <div className="col-md-8 col-xl-6 text-center mx-auto">
-                  <h2>Portfolio</h2>
                   <p className="w-lg-50">Here are some of my latest projects:</p>
                 </div>
               </div>
@@ -28,15 +32,16 @@ export default function Portfolio() {
                 {
                   projects.map(p => (
                     <span key={p.id}>
-                      <div className="col">
+                      <div className="col py-sm-4">
                         <div className="d-flex flex-column flex-lg-row">
-                          <div className="w-100">
-                            <img className="rounded img-fluid d-block w-100 fit-cover portfolio-img" src={p.image} alt={p.title}/>
+                          <div> 
+                            <img className="rounded d-block fit-cover portfolio-img" src={p.image} alt={p.title}/>
                           </div>
                             <div className="py-4 py-lg-0 px-lg-4">
                               <h4>{p.title}</h4>
+                              <h5>{p.skills}</h5>
                               <p>{p.content}</p>
-                              <a href={p.url}><button>GitHub</button></a>
+                              <a href={p.githuburl} className="btn btn-primary">GitHub</a>
                             </div>
                           </div>
                         </div>
