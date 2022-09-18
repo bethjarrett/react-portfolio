@@ -10,7 +10,7 @@ Frameworked with Bootstrap.
 - transparenttextures.com: lined paper and cardboard textures
 
 # To Run
-- Run the following command to install node_modules:
+Run the following command to install node_modules:
 ### `npm install`
-- Run the following command to deploy:
+Run the following command to deploy:
 ### `npm start`

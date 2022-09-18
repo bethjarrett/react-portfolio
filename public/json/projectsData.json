@@ -19,11 +19,11 @@
   },
   {
     "id": 4,
-    "title": "Beth Jarrett: A Portfolio",
-    "skills": "React, Bootstrap, Laravel",
-    "url": "#",
-    "githuburl": "https://github.com/bethjarrett/react-portfolio",
+    "title": "Portfolio Backend",
+    "skills": "Laravel, JSON, W3.CSS",
+    "url": "https://github.com/lebronbrian23/laravel-portfolio-backend",
+    "githuburl": "https://github.com/lebronbrian23/laravel-portfolio-backend",
     "image": "/projectimg/portfolio.png",
-    "content": "Designed to mimic a notebook, my portfolio showcases my work, and services my ego."
+    "content": "A Client Management System that allows a user to log in, manipulate content, and generate corresponding JSON files."
   }
 ]
