@@ -17,7 +17,7 @@ export default function Skills() {
 
     return (
         <>
-          <section id="skills" className="content-section text-white text-center skills">
+          <section id="skills" className="content-section text-dark text-center skills">
             <div className="container">
               <div className="content-section-heading">
                 <h2 className="mb-5">Skills</h2>

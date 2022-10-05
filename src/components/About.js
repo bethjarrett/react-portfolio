@@ -17,9 +17,9 @@ class About extends React.Component {
       <div className="col">
         <h3>I live to write.</h3>
         <h2 className="about-h2">These days, it's code.</h2>
-        <p>Before, I wrote about my time living in South Korea for my <a href="https://scholar.uwindsor.ca/etd/8371/" className="link">Master's thesis</a>.</p>
+        <p>Before, I wrote about my time living in South Korea for my <a href="https://scholar.uwindsor.ca/etd/8371/" className="link" target="_blank">Master's thesis</a>.</p>
         <p>Now, it's accessible web applications with thoughtful UI.</p>
-        <p>I have a special interest in database development, specifically in database design. I also have a passion for making exciting front-end websites. <strong>I'm a true full-stack developer</strong>.</p>
+        <p>I have experience working with both front- and back-end technologies, and I've loved it all. From database design to front-end deployment, <strong>I'm a true full-stack developer</strong>.</p>
         <h3 className="pt-2 pb-4 edu">Education:</h3>
         <div class="row">
           <div class="col-5 col-sm-3 text-center">

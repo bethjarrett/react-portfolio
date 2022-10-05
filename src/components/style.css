@@ -140,7 +140,7 @@ a.link:hover {
 /* 5. Skills */
 .skills {
   background-image: url("img/lined-paper.png");
-  background-color: #858585 !important;
+  background-color: #F5F5F5 !important;
 }
 .skills-img {
   max-width: 40px !important;

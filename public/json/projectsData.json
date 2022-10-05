@@ -10,20 +10,29 @@
   },
   {
     "id": 2,
-    "title": "Beauty Product API",
-    "skills": "node.js, Pug, RESTful API",
-    "url": "https://github.com/bethjarrett/PlantDatabase",
+    "title": "Canada's Drag Data-Race",
+    "skills": "MySQL, PHP",
+    "url": "https://github.com/bethjarrett/",
     "githuburl": "https://github.com/bethjarrett",
     "image": "/projectimg/apiproject.png",
-    "content": "A website where users can engage with two API's: to search for Sephora products, and learn about their ingredients."
+    "content": "A database tracking the placement of Canada's Drag Race contestants, displayed with PHP."
   },
   {
-    "id": 4,
+    "id": 3,
     "title": "Portfolio Backend",
     "skills": "Laravel, JSON, W3.CSS",
     "url": "https://github.com/lebronbrian23/laravel-portfolio-backend",
     "githuburl": "https://github.com/lebronbrian23/laravel-portfolio-backend",
-    "image": "/projectimg/portfolio.png",
+    "image": "/projectimg/portfolioback.png",
     "content": "A Client Management System that allows a user to log in, manipulate content, and generate corresponding JSON files."
+  },
+  {
+    "id": 4,
+    "title": "Capstone Project",
+    "skills": "MongoDB, Node.js",
+    "url": "https://github.com/bethjarrett/",
+    "githuburl": "https://github.com/bethjarrett",
+    "image": "/projectimg/apiproject.png",
+    "content": "An interactive non-fiction narrative intimately exploring my personal relationship with the internet."
   }
 ]
