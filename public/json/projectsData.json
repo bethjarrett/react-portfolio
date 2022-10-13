@@ -12,9 +12,9 @@
     "id": 2,
     "title": "Canada's Drag Data-Race",
     "skills": "MySQL, PHP",
-    "url": "https://github.com/bethjarrett/",
-    "githuburl": "https://github.com/bethjarrett",
-    "image": "/projectimg/apiproject.png",
+    "url": "https://github.com/bethjarrett/dragphp",
+    "githuburl": "https://github.com/bethjarrett/dragphp",
+    "image": "/projectimg/datarace.png",
     "content": "A database tracking the placement of Canada's Drag Race contestants, displayed with PHP."
   },
   {
