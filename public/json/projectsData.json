@@ -1,15 +1,24 @@
 [
   {
     "id": 1,
+    "title": "Scrapebook",
+    "skills": "MongoDB, React, Node.js",
+    "url": "https://scrapebook.vercel.app/",
+    "githuburl": "https://github.com/bethjarrett/capstone_frontend",
+    "image": "/projectimg/apiproject.png",
+    "content": "A Facebook scrapbook, scraped from my previous Facebook account and transformed into something 'new'."
+  },
+  {
+    "id": 2,
     "title": "Foliage Folio",
     "skills": "ASP.Net, LINQ, Bootstrap",
-    "url": "https://github.com/bethjarrett/PlantDatabase",
+    "url": "https://www.youtube.com/watch?v=RdAspJjqeQ0&ab_channel=Beth",
     "githuburl": "https://github.com/bethjarrett/PlantDatabase",
     "image": "/projectimg/foliagefolio.png",
     "content": "A web application that allows users to manage a database of their plants and track when they water them."
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "Canada's Drag Data-Race",
     "skills": "MySQL, PHP",
     "url": "https://github.com/bethjarrett/dragphp",
@@ -18,21 +27,12 @@
     "content": "A database tracking the placement of Canada's Drag Race contestants, displayed with PHP."
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Portfolio Backend",
     "skills": "Laravel, JSON, W3.CSS",
-    "url": "https://github.com/lebronbrian23/laravel-portfolio-backend",
+    "url": "https://ssekalegga-portfolio-backend.herokuapp.com/",
     "githuburl": "https://github.com/lebronbrian23/laravel-portfolio-backend",
     "image": "/projectimg/portfolioback.png",
     "content": "A Client Management System that allows a user to log in, manipulate content, and generate corresponding JSON files."
-  },
-  {
-    "id": 4,
-    "title": "Capstone Project",
-    "skills": "MongoDB, Node.js",
-    "url": "https://github.com/bethjarrett/",
-    "githuburl": "https://github.com/bethjarrett",
-    "image": "/projectimg/apiproject.png",
-    "content": "An interactive non-fiction narrative intimately exploring my personal relationship with the internet."
   }
 ]

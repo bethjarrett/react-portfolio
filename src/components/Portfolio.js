@@ -3,7 +3,7 @@ import axios from 'axios';
 
 export default function Portfolio() {
   const [projects, jsonProjects] = useState([]);
-
+  
   useEffect(() => {
     axios.get('./json/projectsData.json')
       .then(res => {
@@ -13,6 +13,8 @@ export default function Portfolio() {
           console.log("Error: projectsData JSON did not properly convert.");
         })
     }, [])
+
+    
 
     return (
         <>
@@ -41,7 +43,8 @@ export default function Portfolio() {
                               <h4>{p.title}</h4>
                               <h5>{p.skills}</h5>
                               <p>{p.content}</p>
-                              <a href={p.githuburl} className="btn btn-primary">GitHub</a>
+                              <a href={p.url} className="btn btn-primary">Demo</a>
+                              <a href={p.githuburl} className="btn btn-primary ms-2">GitHub</a>
                             </div>
                           </div>
                         </div>
