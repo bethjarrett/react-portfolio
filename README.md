@@ -1,16 +1,14 @@
-# Portfolio in React, Bootstrap
-https://react-portfolio-two-gamma.vercel.app/
+# Portfolio - bethjarrett.ca
+https://bethjarrett.ca/
 
-### About
-Bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-Frameworked with Bootstrap.
-
+# About Project
+My web development portfolio website, using React, consuming JSON API that were generated in Laravel.
 ### Credits
 - Flaticon: skill icons
 - transparenttextures.com: lined paper and cardboard textures
 
 # To Run
 Run the following command to install node_modules:
-### `npm install`
+- ### `npm install`
 Run the following command to deploy:
-### `npm start`
+- ### `npm start`
