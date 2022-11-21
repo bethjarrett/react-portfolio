@@ -21,7 +21,7 @@
     "id": 3,
     "title": "Canada's Drag Data-Race",
     "skills": "MySQL, PHP",
-    "url": "https://github.com/bethjarrett/dragphp",
+    "url": "http://dragdata.epizy.com/",
     "githuburl": "https://github.com/bethjarrett/dragphp",
     "image": "/projectimg/datarace.png",
     "content": "A database tracking the placement of Canada's Drag Race contestants, displayed with PHP."
